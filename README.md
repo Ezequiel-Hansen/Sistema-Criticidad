@@ -16,7 +16,7 @@
 
 ## Descripción
 
-Sistema web para el **cálculo y gestión de criticidad de activos industriales**, implementado según la metodología **PR-MNT-001** de **Synthesia Technologies**
+Sistema web para el **cálculo y gestión de criticidad de activos industriales**
 
 El sistema evalúa cada activo industrial en **4 dimensiones**:
 
