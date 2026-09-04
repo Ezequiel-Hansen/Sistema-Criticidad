@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-navy-deep: #1B2B5E;
+  --color-off-white: #F2F0EC;
+  --color-paper: #FBFAF7;
+  --color-teal: #00C9A7;
+  --color-coral: #D4785C;
+  --color-ink: #14202B;
+  --color-ink-soft: #4B5866;
+  --color-green: #1FA97A;
+  --color-amber: #D9A22B;
+  --color-orange: #E0733F;
+  --color-red: #D14343;
+
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-sans: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --color-line: rgba(27, 43, 94, .14);
+  --color-track-off: rgba(20, 32, 43, .10);
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background: #ffffff;
+}
+
+@keyframes overlay-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes overlay-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes slide-down {
+  from { opacity: 0; transform: translateY(-20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes slide-up {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to { opacity: 0; transform: translateY(-20px) scale(0.97); }
+}
+
+@layer components {
+  .panel {
+    @apply bg-white border border-line rounded-[14px] p-5 mb-4 shadow-[0_1px_3px_rgba(20,32,43,.07)];
+  }
+  .h2title {
+    @apply font-mono text-[12px] tracking-[.1em] uppercase text-navy-deep/75 mb-4 m-0;
+  }
+}
