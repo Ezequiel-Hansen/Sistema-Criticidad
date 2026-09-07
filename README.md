@@ -45,23 +45,23 @@ A partir de estas evaluaciones se calcula un **puntaje de criticidad (1-100)** y
 
 ### Formulario de Evaluación de Activos
 
-<!-- ![Formulario de Activo](docs/screenshots/asset-form.png) -->
+[Formulario de Activo](docs/screenshots/activos.png)
 
 ### Matriz de Criticidad 5×5
 
-<!-- ![Matriz de Criticidad](docs/screenshots/matrix.png) -->
+[Matriz de Criticidad](docs/screenshots/matriz.png)
 
 ### Distribución por Zonas (Gráfico)
 
-<!-- ![Gráfico de Torta](docs/screenshots/pie-chart.png) -->
+[Gráfico de Torta](docs/screenshots/grafico_torta.png)
 
 ### Tabla de Resultados
 
-<!-- ![Tabla de Resultados](docs/screenshots/table.png) -->
+[Tabla de Resultados](docs/screenshots/tabla_activos.png)
 
 ### Gestión de Máquinas
-
-<!-- ![Gestión de Máquinas](docs/screenshots/machine-manager.png) -->
+[Gestión de Máquinas](docs/screenshots/gestor_maquinas.png)
+[Nueva Máquina](docs/screenshots/nueva_maquina.png)
 
 
 ## Funcionalidades
